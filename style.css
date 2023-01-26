@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 40%;
+    height: 40%;
+
+}
+
+body {
+    background-color: #000;
+
+}
+
+svg {
+    /* width: 40%;
+    height: 40%; */
+    stroke: rgb(0, 255, 21);
+    stroke-width: 0.5px;
+    stroke-dasharray: 177;
+    stroke-dashoffset: 0;
+    animation: anima 10s linear infinite;
+
+
+
+}
+
+@keyframes anima {
+    from {
+        stroke-dasharray: 177;
+    }
+
+    to {
+        stroke-dashoffset: -350;
+    }
+}
